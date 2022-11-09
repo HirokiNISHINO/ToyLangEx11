@@ -249,7 +249,7 @@ public class Parser
 			}
 			this.consumeCurrentToken();
 			
-			AstNode rhs = multiplicativeExpr();
+			AstNode rhs = primary();
 			AstNode binop = new AstBinOp(lhs, rhs, t);
 			lhs = binop;
 		}
