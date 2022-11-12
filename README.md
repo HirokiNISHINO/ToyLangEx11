@@ -25,4 +25,4 @@ Toy Programming Language: Ex11
 
 \<Primary\> :: = ( \<AdditiExpr\> ) | \<Integer\>　| \<IdentifierOrAssignment\>　
 
-\<IdentifierOrAssignment\>　 ::= \<Identifier\>　( '=' \<AdditiExpr\>)
+\<IdentifierOrAssignment\>　 ::= \<Identifier\>　['=' \<AdditiExpr\>]
